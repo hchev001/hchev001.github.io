@@ -57,9 +57,11 @@
 
 .icon-envelope:before {
   content: "\65";
+  font-size: 2.2em;
 }
 
 a:hover {
   text-decoration: none;
 }
+
 
