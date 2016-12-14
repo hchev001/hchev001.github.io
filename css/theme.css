@@ -1,0 +1,14 @@
+.jumbotron {
+  background: url(../bridge_large.jpg) center center no-repeat;
+  height: 50em;
+  background-size: cover;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.jumbotron .container-fluid {
+    position: relative;
+    text-align: center;
+    top:6em;
+    color: white;
+}
