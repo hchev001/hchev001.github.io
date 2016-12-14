@@ -12,3 +12,11 @@
     top:6em;
     color: white;
 }
+
+.partitionSize {
+    height: 40em;
+    top: 6em;
+    margin-bottom: 0px;
+    position: relative;
+    text-align: center;
+}
