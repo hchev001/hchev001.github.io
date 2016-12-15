@@ -1,3 +1,4 @@
+/* JUMBOTRON OVERRIDE */
 .jumbotron {
   background: url(../pictures/bridge_large.jpg) center center no-repeat;
   height: 50em;
@@ -11,23 +12,26 @@
     text-align: center;
     top:6em;
     color: white;
+    font-family:'Enriqueta', serif;
+    text-shadow: 2px 2px black;
 }
 
-.partitionSize {
+/* Theme Styling for Project and About Me section */
+
+.contributionsTheme {
+    background-color: #0B151E;
     height: 100%;
     margin-bottom: -20px;
     position: relative;
     text-align: center;
 }
 
-.contributionsTheme {
-    background-color: #0B151E;
-}
-
 .aboutMeTheme {
     background-color: #D2D1D7;
 }
 
+
+/* Helper Class Hack for making all cols be the same height */
 .row.match-my-cols {
     overflow: hidden; 
 }
@@ -36,3 +40,4 @@
     margin-bottom: -99999px;
     padding-bottom: 99999px;
 }
+
