@@ -1,3 +1,10 @@
+/* Navbar Theme Styling */
+
+.navbar a {
+    color: white;
+    font-size: 1.2em;
+}
+
 /* JUMBOTRON OVERRIDE */
 .jumbotron {
   background: url(../pictures/bridge_large.jpg) center center no-repeat;
@@ -16,7 +23,9 @@
     text-shadow: 2px 2px black;
 }
 
-/* Theme Styling for Project and About Me section */
+
+
+/* Theme Styling for Project */
 
 .contributionsTheme {
     background-color: #0B151E;
@@ -24,12 +33,39 @@
     margin-bottom: -20px;
     position: relative;
     text-align: center;
+    font-family: 'Enriqueta', serif;
 }
 
+.contributionsTheme h2 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: .5em;
+}
+
+.boxModel {
+    margin: 1em;
+}
+
+
+/* Theme Styling for About Me */
 .aboutMeTheme {
-    background-color: #D2D1D7;
+    background-color: #FFFFFF;
+    font-family:'Caudex', serif;
+    margin: 1.2em;
 }
 
+.aboutMeTheme p {
+    font-size: 1.5em;
+}
+
+.aboutMeTheme a {
+    font-size: 1.8em;
+}
+
+.aboutMeTheme img {
+    height: 40em;
+}
 
 /* Helper Class Hack for making all cols be the same height */
 .row.match-my-cols {
