@@ -1,5 +1,5 @@
 .jumbotron {
-  background: url(../bridge_large.jpg) center center no-repeat;
+  background: url(../pictures/bridge_large.jpg) center center no-repeat;
   height: 50em;
   background-size: cover;
   margin-bottom: 0px;
@@ -14,9 +14,25 @@
 }
 
 .partitionSize {
-    height: 40em;
-    top: 6em;
-    margin-bottom: 0px;
+    height: 100%;
+    margin-bottom: -20px;
     position: relative;
     text-align: center;
+}
+
+.contributionsTheme {
+    background-color: #0B151E;
+}
+
+.aboutMeTheme {
+    background-color: #D2D1D7;
+}
+
+.row.match-my-cols {
+    overflow: hidden; 
+}
+
+.row.match-my-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
