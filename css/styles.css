@@ -94,13 +94,14 @@ a.contactIcons:active {
   font-weight: 700;
   font-size: 1.5em;
   background-color: black;
-  border-radius: 15px;
+  border-radius: 30px;
+  margin: 2px;
 }
 
 .active a {
   background-color: rgba(255, 255, 255, 0.7) !important;
   color: black !important; 
-  border-radius: 15px !important;
+  border-radius: 30px !important;
 }
 
 
