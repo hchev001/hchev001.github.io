@@ -78,5 +78,27 @@ a.contactIcons:active {
   color: #01798C;
   text-decoration: none;
 }
+/*NAVBAR Styling*/
+.navbar-left > ul > li {
+  float:left;
+  left: 10px;
+}
+.navbar {
+  background-color: rgba(white, white, white, 1.0);
+  background: transparent;
+  border-color: transparent;
+}
+
+.nav.navbar-nav li a {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.active a {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  color: black !important; 
+  border-radius: 15px !important;
+}
 
 
